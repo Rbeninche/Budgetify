@@ -6,69 +6,112 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div> -->
-
 <!--Home Section-->
 
-<div id="home-section">
-    <div class="dark-overlay">
-        <div class="home-inner container">
-            <div class="row">
-                <div class="col-lg-8 d-none d-lg-block">
-                    <h1 class="display-4">
-                        Eliminate <strong>Debt</strong>
-                        and start Building<strong> wealth</strong> today
-                    </h1>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-start">
-                            <i class="fas fa-check fa-2x"></i>
-                        </div>
-                        <div class="p-4 align-self-end">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nam laborum, harum ab sequi maxime!
-                        </div>
+<section class="py-5" id="banner">
+    <div class="container">
+        <div class="row align-items-center viewport-80">
+            <div class="col-10 mx-auto text-center">
+                <h1 class="display-2 text-uppercase text-white banner-title">Budgetify</h1>
+                <h2 class="text-muted text-capitalized">Never spend your money before you have earned it.</h2>
+                <a class="btn banner-link m-3" asp-area="Identity" asp-page="/Account/Register">Start Now</a>
+                <a href="#" class="btn banner-link m-3">Learn More</a>
 
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-start">
-                            <i class="fas fa-check fa-2x"></i>
-                        </div>
-                        <div class="p-4 align-self-end">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nam laborum, harum ab sequi maxime!
-                        </div>
 
-                    </div>
-                    <div class="d-flex">
-                        <div class="p-4 align-self-start">
-                            <i class="fas fa-check fa-2x"></i>
-                        </div>
-                        <div class="p-4 align-self-end">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nam laborum, harum ab sequi maxime!
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card bg-success text-center card-form">
-                        <div class="card-body">
-                            <h3>Sign Up Today</h3>
-                            <p>Please fill out this form to register</p>
-                            <form action=""></form>
-                            <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" placeholder="Username">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control form-control-lg" placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control form-control-lg" placeholder="Password">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
-                            </div>
-                            <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-</div>
+</section>
+
+<!--	 banner icons-->
+<section id="banner-icons">
+    <div class="row">
+        <div class="col">
+            <ul class="d-flex justify-content-center">
+                <li class="text-center">
+                    <a href="#">
+                        <i class="fas fa-list fa-3x"></i>
+                        <p class="mb-0">Budget Planning</p>
+                    </a>
+                </li>
+
+                <li class="text-center">
+                    <a href="#">
+                        <i class="fas fa-credit-card fa-3x"></i>
+                        <p class="mb-0">Debt Management</p>
+                    </a>
+                </li>
+
+                <li class="text-center">
+                    <a href="#">
+                        <i class="fas fa-chart-line fa-3x"></i>
+                        <p class="mb-0">Investment</p>
+                    </a>
+                </li>
+                <li class="text-center">
+                    <a href="#">
+                        <i class="fas fa-book-reader fa-3x"></i>
+                        <p class="mb-0">Education</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--end of banner icons-->
+<section id="info" class="py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-self-center">
+                <h3 class="text-uppercase">About Budgetify</h3>
+                <p>
+                    Our mission is to teach you how to meet life goals by firstly getting out of debt,
+                    investing your money in what matters for you, and helping you retire in peace.
+                </p>
+                <a class="btn btn-outline-success btn-lg" asp-area="Identity" asp-page="/Account/Register">Learn More</a>
+            </div>
+            <div class="col-md-6">
+                <img src="~/images/build-wealth.png" alt="" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--####################end of customers-->
+<!--#####################footer################-->
+<section id="footer" class="py-5 ">
+    <div class="container ">
+        <div class="row align-items-center ">
+            <div class="col-md-6 my-5 ">
+                <div class="flex d-flex ">
+                    <i class="fa fa-check mr-4 align-self-start "></i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit.
+                    </p>
+                </div>
+                <div class="flex d-flex ">
+                    <i class="fa fa-check mr-4 align-self-start "></i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit.
+                    </p>
+                </div>
+                <div class="flex d-flex ">
+                    <i class="fa fa-check mr-4 align-self-start "></i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="embed-responsive embed-responsive-4by3 ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28614.255950392635!2d-80.13990403654509!3d26.301166460167483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8e2903d4afb6f%3A0xe5982b2abf356617!2sDeerfield%20Beach%2C%20FL!5e0!3m2!1sen!2sus!4v1579924750373!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
