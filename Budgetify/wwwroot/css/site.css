@@ -39,7 +39,7 @@ body {
             color: #f5f3f5;
             background-color: #85bb65;
         }
-.login {
+.pTop {
     padding-top: 6em;
 }
 
@@ -171,11 +171,79 @@ body {
     min-height: 60vh;
 }
 
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url("/images/money3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.category-table {
+
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/*##########contact##########################*/
+
+.height-60 {
+    min-height: 80vh;
+}
+
+#contact {
+    background: linear-gradient(rgba(42, 145, 52, 0.3), rgba(42, 145, 52, 0.3)), url(/images/money4.jpg)center/cover fixed no-repeat;
+}
+
+
+    #contact .card {
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 2s ease;
+    }
+
+        #contact .card:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+    #contact .card-header {
+        color: #2a9134;
+    }
+
+    #contact .input-group-text {
+        background: #2a9134;
+        border-color: #2a9134;
+        color: #242424
+    }
+
+    #contact .card input {
+        color: #606060;
+    }
+
+        #contact .card input::placeholder {
+            color: #606060;
+        }
+
+.contact-btn {
+    color: #f1fffa;
+    background: #2a9134;
+    transition: all 2s ease-in-out;
+}
+
+    .contact-btn:hover {
+        background: transparent;
+        border-color: #2a9134;
+        color: #2a9134;
+    }
+
 
 /*##################################footer##############*/
 
 #footer {
-    background-color: #CED0CE;
+    background-color: #fff;
 }
 
     #footer .fa {

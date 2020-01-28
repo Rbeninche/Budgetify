@@ -14,6 +14,7 @@ namespace Budgetify.Data
         {
             
         }
-        public DbSet<User> User { get; set; }
+        public DbSet<ApplicationUser> User { get; set; }
+        public DbSet<DebtCategory> DebtCategory { get; set; }
     }
 }

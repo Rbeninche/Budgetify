@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Budgetify.Models
 {
-    public class User : IdentityUser
+    public class ApplicationUser : IdentityUser
     {
      
         public string FirstName { get; set; }
